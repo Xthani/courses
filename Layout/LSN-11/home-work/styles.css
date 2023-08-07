@@ -1,0 +1,64 @@
+@import './normalize.css';
+
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    font-size: 30px;
+    letter-spacing: 4.5px;
+}
+p {
+    font-size: 24px;
+    letter-spacing: 0.48px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #1A1739;
+    color: #fff;
+}
+
+.container {
+    height: 100%;
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 112px;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.header__wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+}
+
+.main__wrapper {
+    padding: 0 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    padding: 0 50px;
+}
+
+.list {
+    min-width: 230px;
+}

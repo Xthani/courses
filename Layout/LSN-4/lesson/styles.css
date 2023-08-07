@@ -1,0 +1,128 @@
+/* сбросить дефолтные стили */
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd,
+ol, ul, li, form, table, caption, tr, th, td, article, aside, footer, header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+/* float пример обтекания */
+/* header {
+    height: 50px;
+    background: #ccc;
+}
+.left {
+    margin-top: 10px;
+    height: 200px;
+    background: #ccc;
+    float: left;
+    border: 1px solid #000;
+    width: 150px;
+}
+.right {
+    margin-top: 10px;
+    height: 200px;
+    background: #ccc;
+    float: right;
+    border: 1px solid #000;
+    width: 150px;
+}
+main {
+    margin-top: 10px;
+    height: 100px;
+    background: #ccc;
+}
+footer {
+    margin-top: 10px;
+    height: 50px;
+    background: #ccc;
+    clear: both;
+} */
+
+/* Пример float для меню навигации */
+/* li {
+    list-style-type: none;
+    float: left;
+    margin-left: 5px;
+    padding: 5px;
+    background: blue;
+} */
+/* li:hover { */
+    /* color: #fff; */
+    /* border: 1px solid #000; */
+    /* outline: 1px solid #000; */
+    /* box-shadow: 5px 3px 8px 3px red; */
+/* } */
+/* a:hover {
+    background: blue;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #000;
+} */
+
+/* Пример вложенных элементов с float */
+/* main {
+    background-color: #ccc;
+    height: 100vh;
+}
+
+.left {
+    width: 200px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    float: right;
+}
+
+.d-right {
+    width: 150px;
+    height: 100px;
+    background: red;
+    float: right;
+}
+
+.d-left {
+    width: 150px;
+    height: 100px;
+    background: red;
+    float: left;
+} */
+
+
+/* Пример отображения блоков до сброса дефолтных стилей */
+/* .block-default {
+    margin: 20px;
+    background: red;
+    height: 20vh;
+} */
+
+/* Пример бэкграунда */
+/* .back { */
+    /* background-image: url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80'); */
+    /* первый вариант */
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* убирает дублирование */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* заполняет все пространство */
+    /* background-repeat: round; */
+    /* отображает согласно пропорциям и своему размеру */
+    /* background-repeat: space; */
+
+/* } */

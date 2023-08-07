@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#quiz-container {
+    text-align: center;
+}
+
+#result-container {
+    display: none;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}

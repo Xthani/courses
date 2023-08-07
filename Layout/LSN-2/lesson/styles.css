@@ -1,0 +1,116 @@
+/*Подключение шрифтоф всегда в самом верху*/
+@font-face {
+    font-family: 'Roboto';
+    src: url(http://fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2);
+}
+
+/*Универсальный селктор, с помощью которого можно обратиться ко всему документу*/
+* {
+    /* background: #999; */
+}
+
+/* Стилизация текста */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    /* font-weight: bold; */
+    font-style: italic;
+    /* text-transform: capitalize; */
+    text-transform: lowercase;
+    /* text-transform: uppercase; */
+
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: underline line-through overline; */
+
+    letter-spacing: 1px;
+
+    /* 1 параметр по горизонтали 2 параметр по вертикали 3 размытие  */
+    /* text-shadow: -5px -4px 3px #999; */
+
+    line-height: 20px;
+}
+
+.block {
+    background: red;
+}
+
+/* Псевдоклассы */
+:root {
+    /* background: black; */
+}
+
+.login:focus {
+    background: red;
+    color: aqua;
+}
+
+.login:hover {
+    background: blue;
+}
+
+.submit {
+    background: gray;
+}
+
+.submit:hover {
+    background: red;
+}
+
+li {
+    color: aqua;
+}
+
+li:first-child {
+    color: red
+}
+
+li:last-child {
+    color: green
+}
+
+/* Псевдоэлементы */
+p::before {
+    content: 'before';
+    font-size: 30px;
+}
+
+p::after {
+    content: 'after';
+    font-size: 30px;
+}
+
+p::selection {
+    background: rebeccapurple;
+}
+
+
+/* Селекторы атрибутов */
+input {
+    border-color: red;
+}
+
+input[type='password'] {
+    border-color: black;
+}
+
+
+/* шрифты и стили */
+.text {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.paragraf {
+    line-height: 15px;
+    text-align: center;
+    /* text-align: end; */
+
+    /* text-indent: 40px; */
+}

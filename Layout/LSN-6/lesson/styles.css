@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd,
+ol, ul, li, form, table, caption, tr, th, td, article, aside, footer, header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.transform {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    display: inline-block;
+    /* Отвечает за поворот элемента */
+    /* transform: rotate(50deg); */
+    /* Растягивает блок */
+    /* transform: scale(2, 1); */
+    /* transform: scaleX(-1); */
+    /* transform: scaleY(-1); */
+    /* Искажение */
+    /* transform: skew(0, 20deg); */
+
+    /* Смщение элемента */
+    /* transform: translate(30px, 30px); */
+}
+
+/* transform применение для выравнивания блока по центру */
+.header {
+    height: 300px;
+    width: 300px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.contetnt {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.transition {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.5s ease 50ms;
+    color: rgb(208, 208, 208);
+}
+
+.transition:hover {
+    background-color: aquamarine;
+    color: #2a0a0a;
+}
+
+@keyframes banner {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+.animation {
+    width: 200px;
+    height: 200px;
+    /* animation: banner 3s ease-in; */
+    background-color: #ccc;
+}
+
+.animation:hover {
+    animation: banner 3s ease-in infinite;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSN-3</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+
+    <!-- блок независимой информации, например, статья или комментарий -->
+    <article>
+        <h2>Пост</h2>
+        <div class="block class">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, in!
+        </div>
+
+        <div class="block class2">
+            <h3>Комментарии</h3>
+            <article>
+                <h4>Comment</h4>
+                <p>message</p>
+            </article>
+            <article>
+                <h4>Comment</h4>
+                <p>message 2</p>
+            </article>
+            <article>
+                <h4>Comment</h4>
+                <p>message 2</p>
+            </article>
+        </div>
+    </article>
+
+    <!-- группировка связанной информации в HTML-документе -->
+    <!-- Каждый <section> обычно должен содержать заголовок <h1>-<h6> -->
+    <section>
+        <h3>Information</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, repellat ut officiis mollitia sunt eos itaque, sequi, eius tenetur rem
+            dolorem! Harum, autem cumque aliquid blanditiis id assumenda porro asperiores.</p>
+            <div></div>
+    </section>
+
+    <article>
+        <section>
+            <h2>Information</h2>
+        </section>
+    </article>
+
+    <!-- элемент навигации по сайту -->
+    <nav>
+        <ul>
+            <li>
+                <a href="">Главная</a>
+            </li>
+            <li>
+                <a href="">О нас</a>
+            </li>
+            <li>
+                <a href="">Контакты</a>
+            </li>
+            <li>
+                <a href="">Магазин</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- шапка сайта -->
+    <header>
+        <img src="" alt="">
+        <nav>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- примеры использования -->
+    <section>
+        <h2>Магазин</h2>
+        <article>
+            <header>Заголовок товара</header>
+        </article>
+        <article>
+            <header>Заголовок товара</header>
+        </article>
+        <article>
+            <header>Заголовок товара</header>
+            <img src="" alt="">
+            <footer>Нижняя часть карточки</footer>
+        </article>
+    </section>
+
+    <!-- подвал сайта -->
+    <footer>
+        <p>© Copyright 2016 MyCorp.</p>
+        <address>Контакты для связи с нами</address>
+    </footer>
+
+    <!-- содержимое, косвенно связанное с остальным контентом страницы и рассматриваемое независимо от него -->
+    <aside>
+        <h2>Блок с рекламой</h2>
+        <p>Только до 10 июля успейте купить что-то и вы получите скидку</p>
+    </aside>
+
+    <!-- пример разметки на сайте -->
+    <header>
+        <nav>
+            <ul>
+                <li>Главная</li>
+                <li>Магазин</li>
+                <li>Заказать товар</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <main> основное содержимое веб-страницы -->
+    <main>
+        <section>
+            <h2>Первая секция</h2>
+        </section>
+
+        <section>
+            <h2>Вторая секция</h2>
+            <article>
+                <header>Заголовок товара</header>
+                <footer>Подвал</footer>
+            </article>
+            <div></div>
+        </section>
+    </main>
+    <footer>
+        <address>Какой то адрес</address>
+    </footer>
+
+
+    <!-- СТИЛИЗАЦИЯ -->
+    <!-- стилизация списков -->
+    <ul class="outside">
+        <li>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores corrupti architecto ut fugit suscipit incidunt minima adipisci, recusandae quisquam vitae repellendus alias earum magni rerum praesentium inventore natus cumque voluptatibus!</li>
+        <li>Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius atque accusantium quod ipsum facilis quasi vel itaque placeat voluptas voluptatum distinctio aliquam eveniet commodi sequi cupiditate, consequatur blanditiis ratione.</li>
+    </ul>
+
+    <ul class="inside">
+        <li>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores corrupti architecto ut fugit suscipit incidunt minima adipisci, recusandae quisquam vitae repellendus alias earum magni rerum praesentium inventore natus cumque voluptatibus!</li>
+        <li>Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius atque accusantium quod ipsum facilis quasi vel itaque placeat voluptas voluptatum distinctio aliquam eveniet commodi sequi cupiditate, consequatur blanditiis ratione.</li>
+    </ul>
+
+    <!-- стилизация таблиц -->
+    <table class="collapsed">
+        <tr>
+            <th>Lorem, ipsum dolor.</th>
+            <th>Lorem, ipsum dolor.</th>
+            <th>Lorem.</th>
+            <th>Lorem, ipsum dolor.</th>
+        </tr>
+        <tr>
+            <th>Lorem.</th>
+            <th>Lorem, ipsum dolor.</th>
+            <th>Lorem, ipsum dolor.</th>
+        </tr>
+        <tr>
+            <th>Lorem, ipsum dolor.</th>
+            <th>Lorem.</th>
+            <th>Lorem, ipsum dolor.</th>
+        </tr>
+    </table>
+
+    <table class="shop">
+        <tr>
+            <th>Телефоны</th>
+            <th>Часы</th>
+            <th>Холодильники</th>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Iphone</td>
+            <td>Ролекс</td>
+            <td>Indesit</td>
+        </tr>
+        <tr>
+            <td>Nokia</td>
+            <td></td>
+            <td>LG</td>
+        </tr>
+    </table>
+
+
+    <!-- БЛОЧНАЯ МОДЕЛЬ -->
+    <!-- стилизация блоков -->
+    <div class="one">
+        <p>Первый блок</p>
+    </div>
+    <div  class="two">
+        <p>Второй блок</p>
+    </div>
+
+    <div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, praesentium ducimus nulla totam amet voluptates veritatis sit, soluta necessitatibus tempore, quo dolorum fugiat libero accusamus dolores optio corporis velit voluptate.</div>
+
+    <div class="radius">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit accusamus illum ipsam ea architecto ab, ipsum excepturi maiores quis rem, quos voluptas voluptates porro maxime cumque modi quisquam impedit dolorem?</div>
+
+    <div class="block1">Lorem ipsum dolor sit amet.</div>
+    <div class="block2">Lorem ipsum dolor sit amet.</div>
+
+</body>
+</html>

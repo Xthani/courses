@@ -1,0 +1,46 @@
+@import './normalize.css';
+
+.container {
+    height: 100vh;
+    display: grid;
+
+    grid-template-areas: 'header navigate navigate navigate navigate'
+                         '. . . . .'
+                         'menu . content . sidebar'
+                         '. . . . .'
+                         'footer footer footer footer footer';
+    grid-template-columns: 1fr 5px 6fr 5px 1fr;
+    grid-template-rows: 90px 5px 1fr 5px 90px;
+}
+
+.item {
+    color: #fff;
+}
+
+.navigation {
+    grid-area: navigate;
+    background-color: #ccc;
+}
+
+.Header {
+    grid-area: header;
+    background-color: red;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.SideBar {
+    grid-area: sidebar;
+    background-color: green;
+}
+.Menu {
+    grid-area: menu;
+    background-color: gray;
+}
+.Content {
+    grid-area: content;
+    background-color: blue;
+}
+.Footer {
+    grid-area: footer;
+    background-color: rgb(240, 41, 174);
+}

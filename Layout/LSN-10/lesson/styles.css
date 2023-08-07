@@ -1,0 +1,75 @@
+@import './normalize.css';
+
+.container {
+    border: 1px solid black;
+    display: grid; 
+    /* display: inline-grid; */
+
+    /* todo столбцы */
+    /* grid-template-columns: 80px 80px 80px; */
+    /* grid-template-columns: repeat(3, 50px); */
+    /* grid-template-columns: repeat(3, 50px 80px 140px); */
+    /* grid-template-columns: repeat(4, auto); */
+    /* grid-template-columns: 1fr 2fr 3fr; */
+
+    /* todo строки */
+    /* grid-template-rows: 100px 100px 100px; */
+    /* grid-template-rows: repeat(3, 100); */
+    /* grid-template-rows: repeat(3, auto); */
+    /* grid-template-rows: 1fr 2fr 3fr; */
+
+    /* todo краткая запись столбцов и строк */
+    /* grid: repeat(3, 80px) / repeat(3, 150px); */
+    /* grid: repeat(3, 80px) / 80px 30px 50px; */
+    /* grid: repeat(3, 80px) / 1fr 2fr 3fr; */
+
+    /* todo отступы */
+    /* grid-column-gap: 30px; */
+    /* grid-row-gap: 10px; */
+    /* gap: 10px; */
+
+    /* todo по умолчанию идет в ряд, можно сделать колонками */
+    /* grid-auto-flow: row; */
+    /* grid-auto-flow: column; */
+}
+
+.item {
+    color: #fff;
+    padding: 10px 20px;
+}
+
+
+.gold {
+    background-color: gold;
+    /* todo позиция с которой начинается блок */
+    /* grid-column-start: 1; */
+    /* grid-column-end: 4; */
+    /* grid-column: 1 / 4; */
+
+    /* grid-row-start: 1; */
+    /* grid-row-end: 3; */
+    /* grid-row: 1 / 3; */
+
+    /* grid-area: 1 / 1 / 4 / 3; */
+
+    /* order: 0; */
+    /* order: -1; */
+    /* order: 1; */
+}
+
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.gray {
+    background-color: gray;
+}
+.blue {
+    background-color: blue;
+}
+.black {
+    background-color: black;
+}
