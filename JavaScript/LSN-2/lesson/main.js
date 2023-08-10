@@ -3,7 +3,7 @@ let login = prompt('Введите логин');
 
 
 
-const a = 'b';
+const a = 'a';
 let userName = 'admin';
 let userPassword = '12345qwerty';
 
