@@ -5,6 +5,7 @@ let login = prompt('Введите логин');
 let userName = 'admin';
 let userPassword = '12345qwerty';
 
+console.log('test');
 
 let isLogin = login === userName;
 if (!isLogin) {
