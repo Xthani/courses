@@ -2,6 +2,8 @@ let login = prompt('Введите логин');
 // let password = prompt('Введите пароль');
 
 
+
+const a = 'a';
 let userName = 'admin';
 let userPassword = '12345qwerty';
 
