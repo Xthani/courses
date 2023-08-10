@@ -33,5 +33,11 @@ const result = !!name ? name : 'Имени нет';
 
 // console.log(!name);
 
+console.log()
+console.log()
+console.log()
+console.log()
+console.log()
+
 
 
