@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="root">
+        <div class="wrapper">
+            <span>Calculator</span>
+            <div class="input">
+                <label for="first_value">First value</label>
+                <input id="first_value" type="number">
+            </div>
+            <div class="input">
+                <label for="second_value">First value</label>
+                <input id="second_value" type="number">
+            </div>
+            <div class="error_section">
+                <span id="error"></span>
+                <button id="ok" class="action ok_btn">ok</button>
+            </div>
+            <div class="button_wrapper">
+                <button class="action" onclick=addValues('+')>+</button>
+                <button class="action" onclick=minusValues('-')>-</button>
+                <button class="action" onclick=divideValues('?')>/</button>
+                <button class="action" onclick=multiplyValues()>*</button>
+            </div>
+            <div class="button_wrapper">
+                <button id="id" class="button" onclick=clearInputs()>Clear</button>
+            </div>
+            <input placeholder="result" id="result">
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
