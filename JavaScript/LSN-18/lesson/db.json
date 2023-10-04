@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "value": "Значение",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        {
+          "title": "1"
+        },
+        {
+          "title": "2"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "value": "put",
+      "isActive": false,
+      "firstName": null,
+      "lastName": "Last name",
+      "price": 124,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 2
+    },
+    {
+      "value": "Значение",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 4
+    },
+    {
+      "value": "Значение",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 5
+    }
+  ],
+  "users": []
+}
